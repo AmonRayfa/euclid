@@ -16,14 +16,14 @@ function menu([bool]$hide=$false, [string]$message="", [string]$color="Red", [st
     if ($hide -eq $false) {
         # Clear-Host
         Write-Host ""
-        Write-Host " /######$   /######  /##   /##     /## /######$  /###### /##   /##  /###### " -ForegroundColor Green
-        Write-Host "| ##__  ## /##__  ##| ##  |  ##   /##/| ##__  ##|_  ##_/| ##  | ## /##__  ##" -ForegroundColor Green
-        Write-Host "| ##  \ ##| ##  \ ##| ##   \  ## /##/ | ##  \ ##  | ##  | ##  | ##| ##  \__/" -ForegroundColor Green
-        Write-Host "| ######$/| ##  | ##| ##    \  ####/  | ######$   | ##  | ##  | ##|  ###### " -ForegroundColor Green
-        Write-Host "| ##____/ | ##  | ##| ##     \  ##/   | ##__  ##  | ##  | ##  | ## \____  ##" -ForegroundColor Green
-        Write-Host "| ##      | ##  | ##| ##      | ##    | ##  \ ##  | ##  | ##  | ## /##  \ ##" -ForegroundColor Green
-        Write-Host "| ##      |  ######/| ########| ##    | #######/ /######|  ######/|  ######/" -ForegroundColor Green
-        Write-Host "|__/       \______/ |________/|__/    |_______/ |______/ \______/  \______/ " -ForegroundColor Green
+        Write-Host " /######## /##   /##  /######  /##       /###### /####### " -ForegroundColor Green
+        Write-Host "| ##_____/| ##  | ## /##__  ##| ##      |_  ##_/| ##__  ##" -ForegroundColor Green
+        Write-Host "| ##      | ##  | ##| ##  \__/| ##        | ##  | ##  \ ##" -ForegroundColor Green
+        Write-Host "| #####   | ##  | ##| ##      | ##        | ##  | ##  | ##" -ForegroundColor Green
+        Write-Host "| ##__/   | ##  | ##| ##      | ##        | ##  | ##  | ##" -ForegroundColor Green
+        Write-Host "| ##      | ##  | ##| ##    ##| ##        | ##  | ##  | ##" -ForegroundColor Green
+        Write-Host "| ########|  ######/|  ######/| ######## /######| #######/" -ForegroundColor Green
+        Write-Host "|________/ \______/  \______/ |________/|______/|_______/ " -ForegroundColor Green
         
         Write-Host ""
         Write-Host ""
